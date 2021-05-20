@@ -19,8 +19,6 @@ def find_shortest_word(plate, vocabulary):
 
     # return "".join([i for i in vocab_lower if set(i)-set(v)==0])
     for i in vocab_lower:
-        if len(set(i) - set(v)) == 0:
-            place_holder=i
-        elif len(set(i) - set(v)) == 1:
+        if len(set(i) - set(v)) == 0 or len(set(i) - set(v)) == 1:
             place_holder=i
     return place_holder
