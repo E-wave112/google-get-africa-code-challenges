@@ -8,3 +8,18 @@ def longest_balanced(string):
   if string == '()(' or string == '())' : return 2
   else:
     return 6
+
+
+##add test cases
+print(longest_balanced('()('))#2
+print(longest_balanced('(()())'))#6
+print(longest_balanced('())'))#2
+print(longest_balanced('())(())'))#4
+print(longest_balanced('(())'))#4
+print(longest_balanced(')(()))))(((()'))#4
+print(longest_balanced('())(())'))#4
+print(longest_balanced('(('))#0
+print(longest_balanced('()((())(())'))#4
+print(longest_balanced(''))#0
+print(longest_balanced('('))#0
+print(longest_balanced(')'))#0
