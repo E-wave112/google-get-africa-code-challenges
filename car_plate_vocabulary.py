@@ -24,4 +24,8 @@ def find_shortest_word(plate, vocabulary):
     return place_holder
 
 
-print(find_shortest_word("RT 123 SO", ["sort", "car", "rest", "rust", "sir", "cast"]))#SORT
+print(find_shortest_word("RT 123 SO", ["car", "rest", "rust", "rot", "sir", "cast"]))#sort
+print(find_shortest_word("RC 10014", ["sort", "car", "rest", "rust", "sir", "cast"]))#car
+print(find_shortest_word("Ps 3S1t0", ["step", "steps", "stripe", "stepple"]))#steps
+print(find_shortest_word("ST 123 CA", ["cat", "act", "sat", "cast", "cast"]))#cast or cats
+print(find_shortest_word("ST 123 CA", []))#''
