@@ -19,6 +19,9 @@ def find_shortest_word(plate, vocabulary):
 
     # return "".join([i for i in vocab_lower if set(i)-set(v)==0])
     for i in vocab_lower:
-        if len(set(i) - set(v)) == 0 or len(set(i) - set(v)) == 1:
-            place_holder=i
+        if len(set(i) - set(v)) == 0 or len(set(i) - set(v)) == 1:place_holder=i
+        if set(i) == set(v):return i
     return place_holder
+
+
+print(find_shortest_word("RT 123 SO", ["sort", "car", "rest", "rust", "sir", "cast"]))#SORT
