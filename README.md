@@ -5,3 +5,5 @@
 * [Balanced Parenthesis](https://github.com/E-wave112/google-get-africa-code-challenges/blob/main/balanced_parenthesis.py) this code task finds the size of the longest contiguous substring of balanced parentheses from a string of parentheses. Parentheses are considered balanced when there is a valid closing parenthesis for an opening one.
 
 * [Hash Tables](https://github.com/E-wave112/google-get-africa-code-challenges/blob/main/hash_table.py) A [hash table](https://en.wikipedia.org/wiki/Hash_table) implementation in python from scratch.
+
+* [Car_plate_vocabulary] In this code task, we are to find the shortest word from a vocabulary that includes all the letters from a given licence plate.
