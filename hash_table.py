@@ -103,7 +103,7 @@ class HashTable:
 ##create testcases
 
 
-class HashTables(unittest.TestCase):
+class HashTestTables(unittest.TestCase):
     def test_table(self):
         hashtest=HashTable()
         hashfun=hashtest.insert(100,5)
