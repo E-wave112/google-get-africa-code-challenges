@@ -117,10 +117,6 @@ class HashTestTables(unittest.TestCase):
 if __name__ == '__main__':
     unittest.main()
 
-#         print(hashfun)#(100,5)
-# print(hashtest.find('123'))#7
-# print(hashtest.remove('entropy'))#randomness
-
 
 
 
