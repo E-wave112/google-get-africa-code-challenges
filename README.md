@@ -7,3 +7,6 @@
 * [Hash Tables](https://github.com/E-wave112/google-get-africa-code-challenges/blob/main/hash_table.py) A [hash table](https://en.wikipedia.org/wiki/Hash_table) implementation in python from scratch.
 
 * [Car_plate_vocabulary](https://github.com/E-wave112/google-get-africa-code-challenges/blob/main/car_plate_vocabulary.py) In this code task, we are to find the shortest word from a vocabulary that includes all the letters from a given licence plate.
+
+* [Longest_path](https://github.com/E-wave112/google-get-africa-code-challenges/blob/main/longest_path.py) in this code task,
+ we are to write a function that computes the length of the longest path of consecutive integers in a tree. 
