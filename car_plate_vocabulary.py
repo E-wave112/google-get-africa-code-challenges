@@ -10,12 +10,6 @@ def find_shortest_word(plate, vocabulary):
         
     if len(vocab_lower)== 0:
         place_holder=''
-        
-    ##create a vocabulary letter number mapping
-    # vocab_keys=[chr(i) for i in range(97,123)]
-    # vocab_values=[i for i in range(97,123)]
-    # ##creating the vocabulary dictionary
-    # vocab_map = dict(zip(vocab_keys,vocab_values))
 
     
     for i in vocab_lower:
