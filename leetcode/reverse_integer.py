@@ -20,5 +20,14 @@ class Solution:
             final = 0
         return final
 
-# class ReverseIntegerTest(unittest.TestCase):
-#     def test_reverse_integer(self):
+soln = Solution()
+class ReverseIntegerTest(unittest.TestCase):
+    def test_reverse_integer(self):
+        self.assertEqual(soln.reverse(321),123)
+        self.assertEqual(soln.reverse(120),21)
+        self.assertEqual(soln.reverse(0),0)
+        self.assertEqual(soln.reverse(-321),-123)
+        self.assertEqual(soln.reverse(2147483648),0)
+
+if __name__ == '__main__':
+    unittest.main()
