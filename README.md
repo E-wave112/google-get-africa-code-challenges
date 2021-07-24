@@ -12,3 +12,5 @@
  we are to write a function that computes the length of the longest path of consecutive integers in a tree. 
  
  * [This](https://github.com/E-wave112/google-get-africa-code-challenges/tree/main/get-ahead-2) Folder contains all the coding challenges for the second cohort of google get ahead
+ 
+ * A more efficient and scalable way of solving the [balanced parenthesis](https://github.com/E-wave112/google-get-africa-code-challenges/blob/main/get-ahead-2/balanced.py) Challenge
