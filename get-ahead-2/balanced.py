@@ -1,6 +1,9 @@
 import re
 
-def balanced_parenthesis(s):
+##testing module
+import unittest
+
+def longest_balanced(s):
     '''
     this finds the size of the longest contiguous substring of balanced parentheses. Parentheses are considered balanced when there is a valid closing parenthesis for nn opening one.
     '''
@@ -14,15 +17,29 @@ def balanced_parenthesis(s):
     if s == "((" or s == "))":
         return 0
     
-    v = max([s.count(i) for i in s])
+    v = min([s.count(i) for i in s])
     pattern = f"(\({{1,{v}}})(\){{1,{v}}})"
-    pattern_comp = re.compile(pattern)
-    match = re.findall(pattern_comp,s)
+    match = re.findall(pattern,s)
     match_list = [''.join(i) for i in match]
-    print(match_list)
+    # print(match_list)
     match_even = [len(i) for i in match_list if len(i) % 2 == 0]
-    print(match_even)
+    # print(match_even)
     return max(match_even)
 
 
-print(balanced_parenthesis('('))
+class BalancedTestParenthesis(unittest.TestCase):
+    def test_parenthesis(self):
+        self.assertEqual(longest_balanced('()('),2)
+        self.assertEqual(longest_balanced('())'),2)
+        self.assertEqual(longest_balanced('())(())'),4)
+        self.assertEqual(longest_balanced('(())'),4)
+        self.assertEqual(longest_balanced('())(())'),4)
+        self.assertEqual(longest_balanced('(('),0)
+        self.assertEqual(longest_balanced('()((())(())'),4)
+        self.assertEqual(longest_balanced(''),0)
+        self.assertEqual(longest_balanced('('),0)
+        self.assertEqual(longest_balanced(')'),0)
+
+        
+if __name__ == '__main__':
+    unittest.main()
