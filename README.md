@@ -10,3 +10,5 @@
 
 * [Longest_path](https://github.com/E-wave112/google-get-africa-code-challenges/blob/main/longest_path.py) in this code task,
  we are to write a function that computes the length of the longest path of consecutive integers in a tree. 
+ 
+ * [This](https://github.com/E-wave112/google-get-africa-code-challenges/tree/main/get-ahead-2) Folder contains all the coding challenges for the second cohort of google get ahead
