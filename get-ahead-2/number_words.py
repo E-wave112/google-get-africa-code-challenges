@@ -13,7 +13,7 @@ suffixes_num = ('', 'Thousand', 'Million', 'Billion','Trillion','Quadrillion',
 'Undecillion','Duodecillion','Tredecillion','Quattuordecilllion','Quindecillion',
 'Sexdecillion','Septendecillion','Octadecillion','Novemdecillion','Vingitillion')
 
-def process(number, index):
+def process(number:int, index:int):
     
     if number=='0':
         return 'Zero'
@@ -58,7 +58,7 @@ def convert_to_words(num):
     length = len(str(num))
     
     if length>20:
-        return 'This program supports upto 20 digit (64 bit) numbers.'
+        return 'Maximum number limit exceeded !'
     
     count = length // 3 if length % 3 == 0 else length // 3 + 1
     copy = count
@@ -68,9 +68,21 @@ def convert_to_words(num):
         words.append(process(str(num)[0 if i - 2 < 0 else i - 2 : i + 1], copy - count))
         count -= 1;
 
-    final_words = ''
+    words_converted = ''
     for s in reversed(words):
         temp = s + ' '
-        final_words += temp
+        words_converted += temp
     
-    return final_words
+    return words_converted
+
+# write test cases
+
+class Num2WordsTest(unittest.TestCase):
+    def test_num_words(self):
+        self.assertEqual(convert_to_words(234),"two hundred thirty four")
+        self.assertEqual(convert_to_words(3835217595),"three billion eight hundred thirty five million two hundred seventeen thousand five hundred ninety five")
+        self.assertEqual(convert_to_words(19000000001),"nineteen billion one")
+
+
+if __name__ == '__main__':
+    unittest.main()
