@@ -16,7 +16,7 @@ suffixes_num = ('', 'thousand', 'million', 'billion','trillion','quadrillion',
 def process(number,index):
     
     if number=='0':
-        return 'Zero'
+        return 'zero'
     
     length = len(number)
     
@@ -31,7 +31,7 @@ def process(number,index):
     odigit = int(number[2])
     
     words += '' if number[0] == '0' else singles[hdigit]
-    words += ' Hundred ' if not words == '' else ''
+    words += ' hundred ' if not words == '' else ''
     
     if(tdigit > 1):
         words += tens_num[tdigit - 2]
@@ -44,8 +44,8 @@ def process(number,index):
     elif(tdigit == 0):
         words += singles[odigit]
 
-    if(words.endswith('Zero')):
-        words = words[:-len('Zero')]
+    if(words.endswith('zero')):
+        words = words[:-len('zero')]
     else:
         words += ' '
      
