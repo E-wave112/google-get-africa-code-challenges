@@ -6,7 +6,7 @@ singles = ('zero', 'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight
 
 doubles = ('ten', 'eleven', 'twelve', 'thirteen', 'fourteen', 'fifteen', 'sixteen', 'seventeen', 'eighteen', 'nineteen')
 
-tens_num = ('Twenty', 'Thirty', 'Forty', 'Fifty', 'Sixty', 'Seventy', 'Eighty', 'Ninety', 'Hundred')
+tens_num = ('twenty', 'thirty', 'forty', 'fifty', 'sixty', 'seventy', 'eighty', 'ninety', 'hundred')
 
 suffixes_num = ('', 'thousand', 'million', 'billion','trillion','quadrillion',
 'quintillion','sextillion','septillion','octillion','nonillion','decillion',
@@ -73,8 +73,9 @@ def convert_to_words(num):
         temp = s + ' '
         words_converted += temp
     
-    return words_converted
-
+    final = words_converted.rstrip()
+    final = final.replace('  ', '')
+    return final
 # write test cases
 
 class Num2WordsTest(unittest.TestCase):
