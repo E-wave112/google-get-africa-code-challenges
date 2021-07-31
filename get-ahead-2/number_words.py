@@ -2,18 +2,18 @@
 import unittest
 
 
-singles = ('Zero', 'One', 'Two', 'Three', 'Four', 'Five', 'Six', 'Seven', 'Eight', 'Nine')
+singles = ('zero', 'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine')
 
-doubles = ('Ten', 'Eleven', 'Twelve', 'Thirteen', 'Fourteen', 'Fifteen', 'Sixteen', 'Seventeen', 'Eighteen', 'Nineteen')
+doubles = ('ten', 'eleven', 'twelve', 'thirteen', 'fourteen', 'fifteen', 'sixteen', 'seventeen', 'eighteen', 'nineteen')
 
 tens_num = ('Twenty', 'Thirty', 'Forty', 'Fifty', 'Sixty', 'Seventy', 'Eighty', 'Ninety', 'Hundred')
 
-suffixes_num = ('', 'Thousand', 'Million', 'Billion','Trillion','Quadrillion',
-'Quintillion','Sextillion','Septillion','Octillion','Nonillion','Decillion',
-'Undecillion','Duodecillion','Tredecillion','Quattuordecilllion','Quindecillion',
-'Sexdecillion','Septendecillion','Octadecillion','Novemdecillion','Vingitillion')
+suffixes_num = ('', 'thousand', 'million', 'billion','trillion','quadrillion',
+'quintillion','sextillion','septillion','octillion','nonillion','decillion',
+'undecillion','duodecillion','tredecillion','quattuordecilllion','quindecillion',
+'sexdecillion','septendecillion','octadecillion','novemdecillion','vingitillion')
 
-def process(number:int, index:int):
+def process(number,index):
     
     if number=='0':
         return 'Zero'
