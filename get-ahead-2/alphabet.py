@@ -1,3 +1,6 @@
+# import the unittest module
+import unittest
+
 def find_alphabet(words):
     # check if a letter of a word is in the alphabet
     # get a list of all letters in the alphabet both lower and upper case
@@ -12,4 +15,14 @@ def find_alphabet(words):
             if letter in alphabet:
                 present_alphabets.append(letter)
     # return the alphabet with the letters that are present in the words
-    return present_alphabets
+    return list(set(present_alphabets))
+
+# write test cases
+class TestFindAlphabet(unittest.TestCase):
+    # write a function to for five test cases
+    def test_find_alphabet(self):
+        self.assertEqual(find_alphabet(["ART", "RAT", "CAT", "CAR"]),["A", "T", "R", "C"])
+
+if __name__ == '__main__':
+    unittest.main()
+
