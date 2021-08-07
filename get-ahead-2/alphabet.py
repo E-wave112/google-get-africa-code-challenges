@@ -24,6 +24,15 @@ def find_alphabet(words):
     # return the alphabet with the letters that are present in the words iteratively
     return [i for i in present_unique_alphas]
 
+
+# this function reuses part of the first function to compute all possible alphabets that can be formed from a given dictionary
+def find_all_alphabets(words):
+    initial_alphabets = find_alphabet(words)
+    all_possible_alphabets = [i.upper() if i.islower() else i.lower() for i in initial_alphabets] 
+    final = initial_alphabets + all_possible_alphabets
+    final.sort()
+    return [i for i in final]
+
 # write test cases
 class TestFindAlphabet(unittest.TestCase):
     # write a function to for five test cases
@@ -33,6 +42,17 @@ class TestFindAlphabet(unittest.TestCase):
         self.assertEqual(find_alphabet(["zal", "zb", "zzlb","zzz"]),["a", "b","l","z"])
         self.assertEqual(find_alphabet(["aBa", "aaa", "bB","bbB" ]),["B","a","b"])
         self.assertEqual(find_alphabet([]),[])
+
+
+# write test cases for the find_all_alphabets function
+class TestFindAllAlphabets(unittest.TestCase):
+    # write a function to for five test cases
+    def test_find_all_alphabets(self):
+        self.assertEqual(find_all_alphabets(["ART", "RAT", "CAT", "CAR"]),["A","C","R","T",'a', 'c', 'r', 't'])
+        self.assertEqual(find_all_alphabets(["a", "bbl", "bba" ]),["A","B","L","a","b","l"])
+        self.assertEqual(find_all_alphabets(["zal", "zb", "zzlb","zzz"]),["A","B","L","Z","a", "b","l","z"])
+        self.assertEqual(find_all_alphabets(["aBa", "aaa", "bB","bbB" ]),["A", "B", "B", "a", "b", "b"])
+        self.assertEqual(find_all_alphabets([]),[])
 
 
 if __name__ == '__main__':
