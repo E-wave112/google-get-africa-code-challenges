@@ -11,4 +11,4 @@
 
 * A coding challenge to find the winner of the stone game. full problem description [here](https://leetcode.com/explore/challenge/card/august-leetcoding-challenge-2021/613/week-1-august-1st-august-7th/3870/)
 
-* A coding challenge to add number as strings without the use of library functions. full problem description here
+* A coding challenge to add number as strings without the use of library functions. full problem description [here](https://leetcode.com/explore/challenge/card/august-leetcoding-challenge-2021/614/week-2-august-8th-august-14th/3876/)
