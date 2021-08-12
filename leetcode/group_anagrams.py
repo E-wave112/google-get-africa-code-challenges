@@ -1,4 +1,6 @@
-
+# import the testing module
+import unittest
+from typing import List
 from collections import defaultdict
  
 
@@ -16,3 +18,14 @@ class Solution:
             # print(temp)
         res = list(temp_dict.values())
         return res
+
+soln = Solution()
+class anagramsTest(unittest.TestCase):
+    def group_anagrams(self):
+        self.assertEqual(soln.groupAnagrams(['lump', 'eat',  'me',  'tea', 'em', 'plum']),[['me', 'em'], ['lump', 'plum'], ['eat', 'tea']])
+        self.assertEqual(soln.groupAnagrams(["eat","tea","tan","ate","nat","bat"]),[["bat"],["nat","tan"],["ate","eat","tea"]])
+        self.assertEqual(soln.groupAnagrams(["a"]),[["a"]])
+        self.assertEqual(soln.groupAnagrams([""]),[[""]])
+
+if __name__ == "__main__":
+    unittest.main()
