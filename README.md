@@ -16,3 +16,4 @@
  * [This](https://github.com/E-wave112/google-get-africa-code-challenges/tree/main/get-ahead-2) Folder contains all the coding challenges for the second cohort of google get ahead
  
  * [Balanced Parenthesis](https://github.com/E-wave112/google-get-africa-code-challenges/blob/main/balanced_parenthesis.py) this code task finds the size of the longest contiguous substring of balanced parentheses from a string of parentheses. Parentheses are considered balanced when there is a valid closing parenthesis for an opening one.
+ * [This](https://github.com/E-wave112/google-get-africa-code-challenges/tree/main/leetcode) Folder contains all the coding challenges and problems i have attempted and solved successfully on [leetcode](https://leetcode.com)
