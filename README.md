@@ -1,4 +1,4 @@
-* All my code tasks on Data Structures and Algorithmic problems in the 2021 Get-Ahead Africa program organized by [Google](https://about.google/)
+* All my code tasks on Data Structures and Algorithmic problems in the 2021 Get-Ahead Africa program organized by [Google](https://about.google/) and coding challenges on [leetcode](https://leetcode.com/)
 
 * [Histogram and Areas](https://github.com/E-wave112/google-get-africa-code-challenges/blob/main/histogram.py) This code task helps to find area of the maximum rectangle under the curve of the histogram and returns the pair of array indices that represent the rectangle.
 
@@ -16,3 +16,4 @@
  * [This](https://github.com/E-wave112/google-get-africa-code-challenges/tree/main/get-ahead-2) Folder contains all the coding challenges for the second cohort of google get ahead
  
  * [Balanced Parenthesis](https://github.com/E-wave112/google-get-africa-code-challenges/blob/main/balanced_parenthesis.py) this code task finds the size of the longest contiguous substring of balanced parentheses from a string of parentheses. Parentheses are considered balanced when there is a valid closing parenthesis for an opening one.
+ * [This](https://github.com/E-wave112/google-get-africa-code-challenges/tree/main/leetcode) Folder contains all the coding challenges and problems i have attempted and solved successfully on [leetcode](https://leetcode.com)
