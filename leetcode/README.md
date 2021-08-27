@@ -15,4 +15,9 @@
 
 * A coding challenge to group anagram words together. full problem description [here](https://leetcode.com/explore/challenge/card/august-leetcoding-challenge-2021/614/week-2-august-8th-august-14th/3887/)
 
-* A coding challenge to check if two nodes of a binary search tree add up to a certain target k. full problem statement [here](https://leetcode.com/explore/challenge/card/august-leetcoding-challenge-2021/616/week-4-august-22nd-august-28th/3908/)
+* A coding challenge to check if any two nodes of a binary search tree add up to a certain target k. full problem statement [here](https://leetcode.com/explore/challenge/card/august-leetcoding-challenge-2021/616/week-4-august-22nd-august-28th/3908/)
+
+
+* A coding challenge that calculates the sum of elements between and indices range ```left``` and ```right``` where ```left``` and ```right``` are integers and ```left```<=```right```. full problem statement [here](https://leetcode.com/explore/challenge/card/august-leetcoding-challenge-2021/615/week-3-august-15th-august-21st/3892/)
+
+
