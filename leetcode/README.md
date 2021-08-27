@@ -14,3 +14,5 @@
 * A coding challenge to add number as strings without the use of library functions. full problem description [here](https://leetcode.com/explore/challenge/card/august-leetcoding-challenge-2021/614/week-2-august-8th-august-14th/3876/)
 
 * A coding challenge to group anagram words together. full problem description [here](https://leetcode.com/explore/challenge/card/august-leetcoding-challenge-2021/614/week-2-august-8th-august-14th/3887/)
+
+* A coding challenge to check if two nodes of a binary search tree add up to a certain target k. full problem statement [here](https://leetcode.com/explore/challenge/card/august-leetcoding-challenge-2021/616/week-4-august-22nd-august-28th/3908/)
