@@ -20,4 +20,5 @@
 
 * A coding challenge that calculates the sum of elements between and indices range ```left``` and ```right``` where ```left``` and ```right``` are integers and ```left```<=```right```. full problem statement [here](https://leetcode.com/explore/challenge/card/august-leetcoding-challenge-2021/615/week-3-august-15th-august-21st/3892/)
 
+* A coding to find the minimum element in a  rotated sorted array(```it's way simpler than you think```). full problem description [here](https://leetcode.com/explore/challenge/card/august-leetcoding-challenge-2021/617/week-5-august-29th-august-31st/3958/)
 
