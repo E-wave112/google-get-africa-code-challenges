@@ -8,12 +8,12 @@
 
 * [Hash Tables](https://github.com/E-wave112/google-get-africa-code-challenges/blob/main/hash_table.py) A [hash table](https://en.wikipedia.org/wiki/Hash_table) implementation in python from scratch.
 
-* [Car_plate_vocabulary](https://github.com/E-wave112/google-get-africa-code-challenges/blob/main/car_plate_vocabulary.py) In this code task, we are to find the shortest word from a vocabulary that includes all the letters from a given licence plate.
+* [Car_plate_vocabulary](https://github.com/E-wave112/google-get-africa-code-challenges/blob/main/car_plate_vocabulary.py) In this task, we are to find the shortest word from a vocabulary that includes all the letters from a given licence plate.
 
-* [Longest_path](https://github.com/E-wave112/google-get-africa-code-challenges/blob/main/longest_path.py) in this code task,
+* [Longest_path](https://github.com/E-wave112/google-get-africa-code-challenges/blob/main/longest_path.py) in this task,
  we are to write a function that computes the length of the longest path of consecutive integers in a tree. 
  
  * [This](https://github.com/E-wave112/google-get-africa-code-challenges/tree/main/get-ahead-2) Folder contains all the coding challenges for the second cohort of google get ahead
  
- * [Balanced Parenthesis](https://github.com/E-wave112/google-get-africa-code-challenges/blob/main/balanced_parenthesis.py) this code task finds the size of the longest contiguous substring of balanced parentheses from a string of parentheses. Parentheses are considered balanced when there is a valid closing parenthesis for an opening one.
+ * [Balanced Parenthesis](https://github.com/E-wave112/google-get-africa-code-challenges/blob/main/balanced_parenthesis.py) this challenge finds the size of the longest contiguous substring of balanced parentheses from a string of parentheses. Parentheses are considered balanced when there is a valid closing parenthesis for an opening one.
  * [This](https://github.com/E-wave112/google-get-africa-code-challenges/tree/main/leetcode) Folder contains all the coding challenges  i have attempted and solved successfully on [leetcode](https://leetcode.com)
