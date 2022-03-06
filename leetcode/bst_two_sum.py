@@ -22,7 +22,7 @@ class Solution:
         res = list(q)
         res_filter = [i for i in res if i != None]
         total_root = list(combinations(res_filter,2))
-        for i in sum_root:
+        for i in total_root:
             if sum(i) == k: return True
         return False
 
@@ -30,7 +30,7 @@ soln = Solution()
 
 # run tests cases
 class BstSum(unittest.TestCase):
-    def bst_sum_test(self):
+    def test_bst_sum(self):
         self.assertEqual(soln.findTarget([5,3,6,2,4,None,7],28),False)
         self.assertEqual(soln.findTarget([2,1,3],4),True)
         self.assertEqual(soln.findTarget([2,1,3],1),False)

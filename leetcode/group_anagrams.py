@@ -15,7 +15,7 @@ class Solution:
 
 soln = Solution()
 class anagramsTest(unittest.TestCase):
-    def group_anagrams(self):
+    def test_group_anagrams(self):
         self.assertEqual(soln.groupAnagrams(['lump', 'eat',  'me',  'tea', 'em', 'plum']),[['me', 'em'], ['lump', 'plum'], ['eat', 'tea']])
         self.assertEqual(soln.groupAnagrams(["eat","tea","tan","ate","nat","bat"]),[["bat"],["nat","tan"],["ate","eat","tea"]])
         self.assertEqual(soln.groupAnagrams(["a"]),[["a"]])
