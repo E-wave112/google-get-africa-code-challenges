@@ -1,12 +1,9 @@
 class MyQueue:
-    
     def __init__(self):
         self.queue = []
-        
 
     def push(self, x: int) -> None:
         self.queue.append(x)
-        
 
     def pop(self) -> int:
         x = self.queue.pop(0)
@@ -16,4 +13,4 @@ class MyQueue:
         return self.queue[0]
 
     def empty(self) -> bool:
-        return len(self.queue) == 0  
+        return len(self.queue) == 0

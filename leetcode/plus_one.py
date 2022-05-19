@@ -6,7 +6,7 @@ class Solution:
         final = []
         list_str = [str(i) for i in digits]
         to_str = list(str(int("".join(list_str)) + 1))
-        if '-' in to_str:
+        if "-" in to_str:
             new_to_str = to_str[1:]
             new_to_str[0] = f"-{new_to_str[0]}"
             final.extend([int(i) for i in new_to_str])

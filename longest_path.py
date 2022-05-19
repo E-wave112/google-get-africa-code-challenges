@@ -4,7 +4,7 @@
 
 # print(long([4,2,5,1,3]))
 class Tree:
-    def​ __init__​(​self​,​ value​,​​*​children​):
+    def​ __init__​(​self​,​ value​,​​children​):
         self​.​value ​=​ value​
         self​.​children ​=​ children
         #we walk the tree by iterating through it, yielding the length of the path ending at each node we encounter, then take the max of that.
