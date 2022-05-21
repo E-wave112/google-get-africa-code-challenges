@@ -12,7 +12,7 @@ class Solution:
         elif x < 0:
             x_rev = int("-" + str(x)[::-1][:-1])
 
-        return x_rev if x_rev in range(-(2 ** 31), 2 ** 31 - 1) else 0
+        return x_rev if x_rev in range(-(2**31), 2**31 - 1) else 0
 
 
 soln = Solution()

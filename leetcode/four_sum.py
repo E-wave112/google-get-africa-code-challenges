@@ -2,6 +2,7 @@ from itertools import combinations
 from collections import Counter
 from typing import List
 
+
 class Solution:
     def filters(self, nums: List[int], target: int):
         # new_arr = [i for i in nums if sum(nums) == target]
