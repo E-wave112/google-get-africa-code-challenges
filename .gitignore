@@ -9,3 +9,4 @@ top_k_freq.py
 test/
 *.html
 *.js
+*.sh
