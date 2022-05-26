@@ -23,9 +23,7 @@ def longest_balanced(s):
     pattern = f"(\({{1,{v}}})(\){{1,{v}}})"
     match = re.findall(pattern, s)
     match_list = ["".join(i) for i in match]
-    # print(match_list)
     match_even = [len(i) for i in match_list if len(i) % 2 == 0]
-    # print(match_even)
     return max(match_even)
 
 
